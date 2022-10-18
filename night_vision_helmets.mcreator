@@ -1,0 +1,210 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nightvisionglasses",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvisionglasses"
+    },
+    {
+      "name": "Nightvisionhelmets",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvisionhelmets"
+    },
+    {
+      "name": "Rec1",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_1"
+    },
+    {
+      "name": "IronNightSobytiieTaktovShliema",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_night_sobytiie_taktov_shliema",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronNight",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_night",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "IronNightRec",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_night_rec"
+    },
+    {
+      "name": "GoldNight",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_night",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "GoldNightRec",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_night_rec"
+    },
+    {
+      "name": "DiamondNighRec",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_nigh_rec",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "DiamondNightRec",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_night_rec"
+    },
+    {
+      "name": "NetheriteNight",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_night",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "NetheriteNightRec",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_night_rec"
+    },
+    {
+      "name": "NetheriteNightRec2",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_night_rec_2"
+    },
+    {
+      "name": "WorldJoin",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "itemGroup.tabnightvisionhelmets": "Night Vision Helmets",
+      "item.night_vision_helmets.netherite_night_chestplate": "Iron Night Кираса",
+      "item.night_vision_helmets.diamond_nigh_rec_helmet": "Алмазный Шлем Ночного Видение",
+      "item.night_vision_helmets.gold_night_helmet": "Золотой Шлем Ночного Видение",
+      "item.night_vision_helmets.iron_night_helmet": "Железный Шлем Ночного Видение",
+      "item.night_vision_helmets.nightvisionglasses": "Очки Ночного Видение",
+      "item.night_vision_helmets.netherite_night_helmet": "Незеритовый Шлем Ночного Видение",
+      "item.night_vision_helmets.netherite_night_leggings": "Iron Night Поножи",
+      "item.night_vision_helmets.netherite_night_boots": "Iron Night Ботинки"
+    },
+    "en_us": {
+      "itemGroup.tabnightvisionhelmets": "Night Vision Helmets",
+      "item.night_vision_helmets.netherite_night_chestplate": "Iron Night Кираса",
+      "item.night_vision_helmets.diamond_nigh_rec_helmet": "Diamond Night Vision Helmet",
+      "item.night_vision_helmets.gold_night_helmet": "Gold Night Vision Helmet",
+      "item.night_vision_helmets.iron_night_helmet": "Iron Night Vision Helmet",
+      "item.night_vision_helmets.nightvisionglasses": "Night Vision Glasses",
+      "item.night_vision_helmets.netherite_night_helmet": "Netherite Night Vision Helmet",
+      "item.night_vision_helmets.netherite_night_leggings": "Iron Night Поножи",
+      "item.night_vision_helmets.netherite_night_boots": "Iron Night Ботинки"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "night_vision_helmets",
+    "modName": "Night Vision Helmets",
+    "version": "2.0.0",
+    "description": "What are you missing in the mine? Torches! - you\u0027ll answer. But I will say that you are missing Night Vision Helmets. ",
+    "author": "MomentariyModder",
+    "websiteURL": "https://momentariymodder.tk/nvh.html",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "updateURL": "https://raw.githubusercontent.com/MomentariyModder/versions/main/NightVisionHelmets/version.json",
+    "modPicture": "banner",
+    "requiredMods": [
+      "momentariycore2"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "© 2022 MomentariyModder",
+    "modElementsPackage": "net.mcreator.nightvisionhelmets",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200341417
+}

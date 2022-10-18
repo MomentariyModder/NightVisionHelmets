@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="night_vision_helmets"
+version="2.0.0"
+displayName="Night Vision Helmets"
+credits="© 2022 MomentariyModder"
+displayURL="https://momentariymodder.tk/nvh.html"
+updateJSONURL="https://raw.githubusercontent.com/MomentariyModder/versions/main/NightVisionHelmets/version.json"
+logoFile="logo.png"
+authors="MomentariyModder"
+description='''
+What are you missing in the mine? Torches! - you'll answer. But I will say that you are missing Night Vision Helmets. 
+'''
+
+[[dependencies.night_vision_helmets]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.night_vision_helmets]]
+    modId="momentariycore2"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

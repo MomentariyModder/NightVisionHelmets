@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Night Vision Helmets",
+    "icon": {
+      "value": "CUSTOM:Nightvisionglasses"
+    },
+    "showSearch": false
+  }
+}

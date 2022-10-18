@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_helmet"
+  },
+  "addition": {
+    "item": "night_vision_helmets:nightvisionglasses"
+  },
+  "result": {
+    "item": "night_vision_helmets:gold_night_helmet"
+  }
+}
